@@ -1,0 +1,11 @@
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//  Created by xXxuserxXx on xXxdatexXx.
+//  All code (c) xXxyearxXx - present day, xXxownerxXx.
+// -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+#include "Dependencies/ReleaseTools/Configs/RTTests.xcconfig"
+#include "Sources/xXxprojectCamelxXx/Resources/xXxprojectCamelxXx.xcconfig"
+
+TEST_TARGET_NAME = xXxprojectCamelxXxMobile
+PRODUCT_NAME = $(TARGET_NAME)
+INFOPLIST_FILE = Tests/xXxprojectCamelxXxUITests/Info.plist
