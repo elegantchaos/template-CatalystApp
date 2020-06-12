@@ -1,11 +1,9 @@
 #!/bin/sh
 
-echo "$0 $1 $2 $3"
-
+echo "Setting up template..."
 cd "$1"
-ls
-
-#git init
-#git add .
-#git commit . -m "first commit"
-#git submodule add git@github.com:elegantchaos/ReleaseTools.git Dependencies/ReleaseTools
+git init
+git add .
+git commit . -m "first commit"
+git submodule add git@github.com:elegantchaos/ReleaseTools.git Dependencies/ReleaseTools
+git submodule update --init --recursive
